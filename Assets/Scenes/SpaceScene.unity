@@ -262,6 +262,7 @@ GameObject:
   - component: {fileID: 122628055}
   - component: {fileID: 122628057}
   - component: {fileID: 122628056}
+  - component: {fileID: 122628058}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -350,6 +351,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &122628058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122628054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 122628054}
+  speed: 5
 --- !u!1 &415378618
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,6 +376,7 @@ GameObject:
   - component: {fileID: 415378620}
   - component: {fileID: 415378619}
   - component: {fileID: 415378621}
+  - component: {fileID: 415378622}
   m_Layer: 0
   m_Name: SmallPlanet
   m_TagString: Untagged
@@ -448,6 +464,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1574363133}
+  speed: 5
+--- !u!114 &415378622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415378618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 415378618}
   speed: 5
 --- !u!1 &423031511
 GameObject:
@@ -544,6 +574,7 @@ GameObject:
   - component: {fileID: 470167803}
   - component: {fileID: 470167805}
   - component: {fileID: 470167804}
+  - component: {fileID: 470167806}
   m_Layer: 0
   m_Name: FirstMoon
   m_TagString: Untagged
@@ -632,6 +663,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &470167806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470167802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 470167802}
+  speed: 5
 --- !u!1 &735202091
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,6 +856,7 @@ GameObject:
   - component: {fileID: 894298999}
   - component: {fileID: 894298998}
   - component: {fileID: 894299000}
+  - component: {fileID: 894299001}
   m_Layer: 0
   m_Name: BiggerPlanet
   m_TagString: Untagged
@@ -900,6 +946,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1574363133}
+  speed: 5
+--- !u!114 &894299001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894298997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 894298997}
   speed: 5
 --- !u!1 &1309180332
 GameObject:
@@ -996,6 +1056,7 @@ GameObject:
   - component: {fileID: 1560237931}
   - component: {fileID: 1560237930}
   - component: {fileID: 1560237932}
+  - component: {fileID: 1560237933}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -1085,6 +1146,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1574363133}
   speed: 5
+--- !u!114 &1560237933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560237929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1560237929}
+  speed: 5
 --- !u!1 &1574363133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,6 +1169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1574363134}
+  - component: {fileID: 1574363135}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -1120,6 +1196,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1574363135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574363133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1574363133}
+  speed: 5
 --- !u!1 &1610505109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,6 +1221,7 @@ GameObject:
   - component: {fileID: 1610505111}
   - component: {fileID: 1610505110}
   - component: {fileID: 1610505112}
+  - component: {fileID: 1610505113}
   m_Layer: 0
   m_Name: BiggestPlannet
   m_TagString: Untagged
@@ -1221,6 +1312,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1574363133}
   speed: 5
+--- !u!114 &1610505113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610505109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1610505109}
+  speed: 5
 --- !u!1 &1617386800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,6 +1337,7 @@ GameObject:
   - component: {fileID: 1617386801}
   - component: {fileID: 1617386803}
   - component: {fileID: 1617386802}
+  - component: {fileID: 1617386804}
   m_Layer: 0
   m_Name: SecondMoon
   m_TagString: Untagged
@@ -1320,6 +1426,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1617386804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617386800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1617386800}
+  speed: 5
 --- !u!1 &1643772815
 GameObject:
   m_ObjectHideFlags: 0
